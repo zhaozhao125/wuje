@@ -116,16 +116,16 @@ setupApp({
   ...lifecycles,
 });
 
-setupApp({
-  name: "vite",
-  url: hostMap("//localhost:7500/"),
-  attrs,
-  exec: true,
-  props,
-  fetch: credentialsFetch,
-  degrade,
-  ...lifecycles,
-});
+// setupApp({
+//   name: "vite",
+//   url: hostMap("//localhost:7500/"),
+//   attrs,
+//   exec: true,
+//   props,
+//   fetch: credentialsFetch,
+//   degrade,
+//   ...lifecycles,
+// });
 
 if (window.localStorage.getItem("preload") !== "false") {
   preloadApp({

@@ -3,8 +3,8 @@ import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import React16 from "../views/React16.vue";
 import React16Sub from "../views/React16-sub.vue";
-import React17 from "../views/React17.vue";
-import React17Sub from "../views/React17-sub.vue";
+// import React17 from "../views/React17.vue";
+// import React17Sub from "../views/React17-sub.vue";
 import Vue2 from "../views/Vue2.vue";
 import Vue2Sub from "../views/Vue2-sub.vue";
 import Vite from "../views/Vite.vue";
@@ -33,16 +33,16 @@ const routes = [
     name: "react16-sub",
     component: React16Sub,
   },
-  {
-    path: "/react17",
-    name: "react17",
-    component: React17,
-  },
-  {
-    path: "/react17-sub/:path",
-    name: "react17-sub",
-    component: React17Sub,
-  },
+  // {
+  //   path: "/react17",
+  //   name: "react17",
+  //   component: React17,
+  // },
+  // {
+  //   path: "/react17-sub/:path",
+  //   name: "react17-sub",
+  //   component: React17Sub,
+  // },
   {
     path: "/vue2",
     name: "vue2",

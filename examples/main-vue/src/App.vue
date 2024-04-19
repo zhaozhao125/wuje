@@ -56,10 +56,10 @@
         >vite <a-icon :class="['main-icon', { active: viteFlag }]" type="caret-up" @click.native="handleFlag('vite')"
       /></router-link>
       <div class="sub-menu" v-show="viteFlag">
-        <router-link to="/vite-sub/home">home</router-link>
-        <router-link to="/vite-sub/dialog">dialog</router-link>
-        <router-link to="/vite-sub/location">location</router-link>
-        <router-link to="/vite-sub/contact">contact</router-link>
+        <router-link to="/vite-sub/home">home--</router-link>
+        <router-link to="/vite-sub/dialog">dialog--</router-link>
+        <router-link to="/vite-sub/location">location--</router-link>
+        <router-link to="/vite-sub/contact">contact--</router-link>
       </div>
       <router-link to="/angular12">angular12</router-link>
       <router-link to="/all">all</router-link>

@@ -12,6 +12,10 @@ export default {
       return hostMap("//localhost:7500/") + this.$route.params.path;
     },
   },
+  mounted() {
+    console.log(this.$route.params.path, "this.$route.params.path");
+    console.log(hostMap("//localhost:7500/") + this.$route.params.path, "path");
+  },
 };
 </script>
 

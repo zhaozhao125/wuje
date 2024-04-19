@@ -10,6 +10,7 @@ export default {
   data() {
     return {
       viteUrl: hostMap("//localhost:7500/"),
+      // viteUrl: "//wujie-micro.github.io/demo-vite/",
     };
   },
 };
